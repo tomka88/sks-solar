@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  root 'pages#home'
+  get "rolunk" => "pages#rolunk"
+  get "kapcsolat" => "pages#kapcsolat"
+  get "arajanlat" => "pages#arajanlat"
+  get "szolgaltatasaink" => "pages#szolgaltatasaink"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
